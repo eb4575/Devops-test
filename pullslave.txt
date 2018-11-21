@@ -1,1 +1,1 @@
-this is test for pull operation
+this is test for revert operation
