@@ -8,9 +8,14 @@ pipeline {
             sh 'date'
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             echo 'test2'
+          }
+        }
+        stage('') {
+          steps {
+            sh 'date'
           }
         }
       }
