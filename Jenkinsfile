@@ -13,6 +13,11 @@ pipeline {
             echo 'test2'
           }
         }
+        stage('test3') {
+          steps {
+            timestamps()
+          }
+        }
       }
     }
   }
